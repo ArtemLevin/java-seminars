@@ -9,7 +9,7 @@ public class sem_2_task_1 {
         String c1 = input.next();
         System.out.print("Enter the second symbol ---> ");
         String c2 = input.next();
-        for (int i = 0; i < n + 1; i++) {
+        for (int i = 0; i < n/2; i++) {
             System.out.print(c1.concat(c2));   
         input.close();
         }

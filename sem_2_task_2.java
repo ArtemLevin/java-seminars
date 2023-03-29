@@ -20,10 +20,14 @@ public class sem_2_task_2 {
             } 
 
             if (chArray[i] != chArray[i-1]){
-
+                if (counter == 1){
+                    System.out.print(chArray[i-1]);
+                }
+                else{
                 System.out.print(chArray[i-1]);
                 System.out.print(counter);
                 counter = 1;
+                }
             }
 
         }
